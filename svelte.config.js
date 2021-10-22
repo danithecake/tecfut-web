@@ -14,7 +14,8 @@ const config = {
       resolve: {
         alias: {
           common: path.resolve('./src/common'),
-          lib: path.resolve('./src/lib')
+          lib: path.resolve('./src/lib'),
+          api: path.resolve('./src/api')
         }
       }
     }
