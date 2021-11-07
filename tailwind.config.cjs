@@ -1,22 +1,19 @@
 module.exports = {
   mode: 'jit',
   purge: {
-    content: [
-     "./src/**/*.svelte",
-
-    ],
-    enabled: process.env.PRODUCTION,
+    content: ['./src/**/*.svelte'],
+    enabled: process.env.PRODUCTION
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
   plugins: [],
   future: {
     purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
+    removeDeprecatedGapUtilities: true
+  }
 }
