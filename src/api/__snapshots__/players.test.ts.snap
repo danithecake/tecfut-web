@@ -1,5 +1,122 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`api/players get returns parsed players map from local players.csv file 1`] = `
+Object {
+  "alerom": Object {
+    "alias": "Саша Романихин",
+    "firstname": "Саша",
+    "lastname": "Романихин",
+    "name": "alerom",
+    "photoURL": null,
+  },
+  "andbor": Object {
+    "alias": "Андрей Борода",
+    "firstname": "Андрей",
+    "lastname": "Борода",
+    "name": "andbor",
+    "photoURL": null,
+  },
+  "andrey": Object {
+    "alias": "Андрей",
+    "firstname": "Андрей",
+    "lastname": null,
+    "name": "andrey",
+    "photoURL": null,
+  },
+  "antsav": Object {
+    "alias": "Антон",
+    "firstname": "Антон",
+    "lastname": "Савельев",
+    "name": "antsav",
+    "photoURL": null,
+  },
+  "dangol": Object {
+    "alias": "Данил",
+    "firstname": "Данил",
+    "lastname": "Головачев",
+    "name": "dangol",
+    "photoURL": null,
+  },
+  "dimsha": Object {
+    "alias": "Дима Шальнев",
+    "firstname": "Дима",
+    "lastname": "Шальнев",
+    "name": "dimsha",
+    "photoURL": null,
+  },
+  "ivan": Object {
+    "alias": "Иван",
+    "firstname": "Иван",
+    "lastname": null,
+    "name": "ivan",
+    "photoURL": null,
+  },
+  "kolya": Object {
+    "alias": "Коля",
+    "firstname": "Коля",
+    "lastname": null,
+    "name": "kolya",
+    "photoURL": null,
+  },
+  "kosura": Object {
+    "alias": "Костя",
+    "firstname": "Костя",
+    "lastname": "Ураков",
+    "name": "kosura",
+    "photoURL": null,
+  },
+  "lesha": Object {
+    "alias": "Леша",
+    "firstname": "Леша",
+    "lastname": null,
+    "name": "lesha",
+    "photoURL": null,
+  },
+  "maxche": Object {
+    "alias": "Максим",
+    "firstname": "Максим",
+    "lastname": "Чернов",
+    "name": "maxche",
+    "photoURL": null,
+  },
+  "mismar": Object {
+    "alias": "Миша",
+    "firstname": "Миша",
+    "lastname": "Меренков",
+    "name": "mismar",
+    "photoURL": null,
+  },
+  "vitaku": Object {
+    "alias": "Виталик Акульшин",
+    "firstname": "Виталик",
+    "lastname": "Акульшин",
+    "name": "vitaku",
+    "photoURL": null,
+  },
+  "vitvol": Object {
+    "alias": "Виталик Волнушкин",
+    "firstname": "Виталик",
+    "lastname": "Волнушкин",
+    "name": "vitvol",
+    "photoURL": null,
+  },
+  "vitya": Object {
+    "alias": "Витя",
+    "firstname": "Витя",
+    "lastname": null,
+    "name": "vitya",
+    "photoURL": null,
+  },
+  "zhechi": Object {
+    "alias": "Женя",
+    "firstname": "Женя",
+    "lastname": "Чистов",
+    "name": "zhechi",
+    "photoURL": null,
+  },
+}
+`;
+
 exports[`routes/players get returns parsed players map from local players.csv file 1`] = `
 Object {
   "alerom": Object {

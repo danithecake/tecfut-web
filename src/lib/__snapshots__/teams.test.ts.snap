@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lib/teams getPlayers returns parsed teams map from local teams.csv file 1`] = `
+Object {
+  "blue": Object {
+    "fullname": "Синие",
+    "name": "blue",
+  },
+  "manki": Object {
+    "fullname": "Манишки",
+    "name": "manki",
+  },
+}
+`;

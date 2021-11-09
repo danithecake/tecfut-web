@@ -5,3 +5,8 @@ export interface IPlayer {
   alias?: string
   photoURL?: string
 }
+
+export interface ITeam {
+  name: string
+  fullname: string
+}
