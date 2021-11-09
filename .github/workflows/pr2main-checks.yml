@@ -1,0 +1,22 @@
+name: Checks for PRs to main branch
+on:
+  pull_request:
+    branches: [master]
+jobs:
+  Run-Checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+      - name: Node setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install
+        run: npm install
+      - name: Lint
+        run: npm run lint
+      - name: Test
+        run: npm run test
+      - name: Svelte check
+        run: npm run check
